@@ -5,7 +5,25 @@ import Header from '@/Common/Header'
 const page = () => {
   return (
 <>
+<Head>
+        {/* Title Tag */}
+        <title>Terms & Condition</title>
+        <link rel="canonical" href="https://www.eventdekho.in/terms&condition" />
+
+        {/* Meta Description */}
+        <meta
+          name="description"
+          content="Read our terms and condition carefully and then confirm your booking"
+        />
+   <html lang="en-IN" />
+        <meta name="geo.region" content="IN" />
+        <meta name="geo.placename" content="India" />
+        <meta name="geo.position" content="26.8467;80.9462" />
+
+        {/* Open Graph Meta Tags for Social Sharing */}
+      </Head>
 <Header/>
+
 <div className='p-12'>
 <h1>Terms and Conditions</h1>
     <p className="text-2xl">Welcome to our event planning website! By accessing and using our services, you agree to the following terms and conditions:</p>

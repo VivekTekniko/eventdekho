@@ -70,12 +70,12 @@ const MostPopular = () => {
   return (
     <section className='max-w-screen-xl md:mx-auto  md:py-10'style={{backgroundColor:"rgba(255, 250, 248, 1)"}}>
     <div className="max-w-screen-lg md:mx-auto p-4">
-      <h3 className="text-center text-black font-semibold text-5xl font-sans pb-8" >
+      <h1 className="text-center text-black font-semibold text-5xl font-sans pb-8" >
         Our Most Popular Party Packages List
-      </h3>
-      <p className="md:max-w-screen-sm max-w-3xl  mx-auto text-2xl text-center text-black font-medium font-sans">
+      </h1>
+      <h2 className="md:max-w-screen-sm max-w-3xl  mx-auto text-2xl text-center text-black font-medium font-sans">
       Our experienced team handles everything from decoration, catering, and photography to managing the entire event, ensuring it&apos;s stress-free and magical.
-          </p>
+          </h2>
       <div className="grid grid-cols-2 md:grid-cols-3 p-4">
         {treatmentData.map((elem,id) => {
           return (
@@ -88,10 +88,11 @@ const MostPopular = () => {
                  height={100}
                   width={100} 
                   src={elem.image.src} 
+                  alt='mostpopular-image'
                   className="w-full h-full rounded-2xl" />
               </div>
                   <div className="py-6 px-8 rounded-lg bg-white">
-                    <h1 className="text-gray-700 font-bold text-2xl mb-3 hover:text-gray-900 hover:cursor-pointer">{elem.text}</h1>
+                    <h3 className="text-gray-700 font-bold text-2xl mb-3 hover:text-gray-900 hover:cursor-pointer">{elem.text}</h3>
                     <p className="text-gray-700 text-xl">{elem?.desc}</p>
                    <div className='text-end'>
                      <Link className="mt-6 py-3 px-4 bg-pink-600 text-white text-2xl rounded-lg shadow-md hover:shadow-lg transition duration-300" 

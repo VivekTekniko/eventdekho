@@ -50,9 +50,9 @@ const TreatmentList = () => {
   
   return (
     <div className="max-w-screen-lg md:mx-auto p-4">
-      <h3 className="text-center text-black font-semibold text-5xl font-sans pb-4">
+      <h2 className="text-center text-black font-semibold text-5xl font-sans pb-4">
         Our Top Services
-      </h3>
+      </h2>
       <p className="md:max-w-screen-sm max-w-3xl  mx-auto text-2xl text-center text-black font-medium font-sans">
       We handle everything with precision and creativity, delivering a stress-free experience so you can focus on enjoying your special day.
           </p>
@@ -67,7 +67,7 @@ const TreatmentList = () => {
             >
               <div className=" shadow-lg rounded-2xl">
               <div className="md:w-80 md:h-80 w-56 h-44">
-                 <Image height={100} width={100} src={elem.image.src}  className="w-full h-full" style={{borderRadius:"50%"}} />
+                 <Image height={100} width={100} src={elem.image.src} alt={`${elem.name}-image`}  className="w-full h-full" style={{borderRadius:"50%"}} />
               </div>
               <h6 className="text-2xl p-4 py-8 text-center font-semibold text-black md:h-28 h-20" >
                 {elem.name}

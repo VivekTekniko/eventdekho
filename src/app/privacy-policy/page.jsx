@@ -5,6 +5,23 @@ import React from 'react'
 const page = () => {
   return (
     <div>
+      <Head>
+        {/* Title Tag */}
+        <title>Privacy & Policies</title>
+        <link rel="canonical" href="https://www.eventdekho.in/privacy-policy" />
+
+        {/* Meta Description */}
+        <meta
+          name="description"
+          content="Read our privacy and policy first and then confirm your booking"
+        />
+
+<html lang="en-IN" />
+        <meta name="geo.region" content="IN" />
+        <meta name="geo.placename" content="India" />
+        <meta name="geo.position" content="26.8467;80.9462" />
+        {/* Open Graph Meta Tags for Social Sharing */}
+      </Head>
         <Header/>
         <div className='p-12'>
         <h1>Privacy Policy</h1>

@@ -6,13 +6,13 @@ import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "EventDekho",
-  description: "Best Event Planners in Lucknow | Event & Party Planner | Events Planner in Lucknow | Party Planners in Lucknow - EventDekho | Surprise Planner in Lucknow",
-  // icons: {
-  //   icon: "./favicons.ico",
-  // },
-};
+// export const metadata: Metadata = {
+//   title: "Event Planner in Lucknow",
+//   description: "Best Event Planners in Lucknow | Event & Party Planner | Events Planner in Lucknow | Party Planners in Lucknow - EventDekho | Surprise Planner in Lucknow",
+//   // icons: {
+//   //   icon: "./favicons.ico",
+//   // },
+// };
 
 export default function RootLayout({
   children,
@@ -20,7 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    
+    <html lang="en-IN">
       <Head>
        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />

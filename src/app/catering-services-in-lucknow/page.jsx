@@ -8,9 +8,39 @@ import ContactForm from '../contact-form/ContactForm';
 import About from "../../Component/About";
 import EventImage from "@/Common/EventImage";
 import Image from 'next/image';
+import Head from 'next/head';
  const page = () => {
   return (
     <div>
+       <Head>
+        {/* Title Tag */}
+        <title>Best Catering Services in Lucknow</title>
+        <link rel="canonical" href="https://www.eventdekho.in/catering-services-in-lucknow" />
+        {/* Meta Description */}
+        <meta
+          name="description"
+          content="Looking for the best catering services in Lucknow?At Event Dekho, we bring the rich culinary heritage of Lucknow right to your event. Our catering services are tailored to deliver an unforgettable dining experience that combines traditional flavors with modern presentation."
+        />
+
+        {/* Meta Keywords */}
+        <meta
+          name="keywords"
+          content="best catering services in Lucknow, wedding catering Lucknow, corporate catering Lucknow , birthday catering services in Lucknow , anniverasry catering services in Lucknow "
+        />
+
+        {/* Open Graph Meta Tags for Social Sharing */}
+        <meta property="og:title" content="Best catering services in Lucknow | Event & Party Planner - EventDekho" />
+        <meta
+          property="og:description"
+          content="Looking for the best catering services in Lucknow? EventDekho offers expert event, party, and wedding planning services in Lucknow."
+        />
+      <meta property="og:image" content="https://www.eventdekho.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.eb280abe.png&w=256&q=75" />
+      <meta property="og:url" content="https://www.eventdekho.in/" />
+        <meta property="og:type" content="website" />
+
+        {/* For responsive design */}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
          <Header/>
         <div className="font-sans p-4">
         <div class="relative font-sans before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-10 before:z-0">

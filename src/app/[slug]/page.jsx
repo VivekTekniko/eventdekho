@@ -15,8 +15,10 @@ import img6 from "../../Assets/rituals.jpg";
 import { IoStar } from "react-icons/io5";
 import Footer from "@/Common/Footer";
 import EventImage from "@/Common/EventImage";
+import Head from "next/head";
 
 const page = ({ params }) => {
+  
   let name = params.slug.split("-")[0];
 
   let imgGallery = [
@@ -114,6 +116,26 @@ const page = ({ params }) => {
 
   return (
     <div>
+      <Head>
+        {/* Title Tag */}
+        <title>{params.slug} in Lucknow</title>
+
+        {/* Meta Description */}
+        <meta
+          name="description"
+          content={`we are the best ${params.slug} planner in Lucknow`}
+        />
+
+        {/* Meta Keywords */}
+        <meta
+          name="keywords"
+          content={params.slug} 
+        />
+   <html lang="en-IN" />
+        <meta name="geo.region" content="IN" />
+        <meta name="geo.placename" content="India" />
+        <meta name="geo.position" content="26.8467;80.9462" />
+      </Head>
       <Header />
       <div class="max-w-screen-lg mx-auto">
         <h3 className="p-8 text-center font-bold text-4xl">
