@@ -106,7 +106,7 @@ const Testimonials: any = () => {
         <div className="h-auto m-6 rounded-2xl p-6 shadow-xl bg-white">
           <div>
                <Image height={100} width={100} src={elem.mainimg.src} className="w-16 h-16 rounded-full" alt="event-planner-testimonial" />
-            <h4 className="text-gray-800 text-xl whitespace-nowrap font-bold mt-3">{elem.name}</h4>
+            <h4 className="text-gray-800 text-2xl whitespace-nowrap font-bold mt-3">{elem.name}</h4>
             <p className="mt-0.5 text-2xl text-gray-600">{elem.prof}</p>
           </div>
           <div className="mt-4">

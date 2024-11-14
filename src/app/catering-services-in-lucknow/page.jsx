@@ -44,17 +44,17 @@ import Head from 'next/head';
          <Header/>
         <div className="font-sans p-4">
         <div class="relative font-sans before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-10 before:z-0">
-         <Image height={200} width={100} src={img.src}  alt="Banner Image" class="absolute inset-0 w-full h-full object-cover" />
+         <Image height={400} width={1000} src={img.src}  alt="Banner Image" class="absolute inset-0 w-full h-full object-cover" />
 
       <div class="min-h-[350px] relative z-10 h-full max-w-6xl mx-auto flex flex-col justify-center items-center text-center text-white p-6">
-      <h1 className='text-6xl text-white font-semibold py-8'>Best Catering Services in Lucknow</h1>
-        <h2 class=" text-3xl font-bold text-center text-gray-100">All in one Party solution in Lucknow We give the best packages for your events including decoration,catering,bakery,photography,cleaning and much more...</h2>
+      <h1 className='md:text-6xl text-8xl text-white font-semibold py-8'> Catering Services in Lucknow</h1>
+        <h2 class=" text-4xl md:text-3xl font-bold text-center text-gray-100">All in one Party solution in Lucknow We give the best packages for your events including decoration,catering,bakery,photography,cleaning and much more...</h2>
 
-        <button
-          type="button"
-          class="mt-12 bg-transparent text-2xl font-bold  text-white py-3 px-6 border-2 border-white rounded-lg hover:bg-white hover:text-black transition duration-300">
-          Book Now
-        </button>
+        <a
+                href='/contact-form'
+                class="mt-12 bg-white md:text-3xl text:5xl font-bold  text-black md:py-3 p-6 px-6 border-2 border-white rounded-lg  transition duration-300">
+                Book Now
+              </a>
       </div>
     </div>
     <div className="max-w-screen-lg mx-auto py-12">

@@ -3,6 +3,7 @@ import Header from "../../Common/Header";
 import Footer from "../../Common/Footer";
 import EventImage from "../../Common/EventImage";
 import ContactForm from "./ContactForm";
+import Head from 'next/head';
 
 const Page = () => {
   return (

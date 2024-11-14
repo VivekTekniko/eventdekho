@@ -66,8 +66,8 @@ const TreatmentList = () => {
               key={id}
             >
               <div className=" shadow-lg rounded-2xl">
-              <div className="md:w-80 md:h-80 w-56 h-44">
-                 <Image height={100} width={100} src={elem.image.src} alt={`${elem.name}-image`}  className="w-full h-full" style={{borderRadius:"50%"}} />
+              <div className="md:w-80 md:h-80 w-96 h-80">
+                 <Image height={200} width={200} src={elem.image.src} alt={`${elem.name}-image`}  className="w-full h-full" style={{borderRadius:"50%"}} />
               </div>
               <h6 className="text-2xl p-4 py-8 text-center font-semibold text-black md:h-28 h-20" >
                 {elem.name}

@@ -144,26 +144,29 @@ const page = ({ params }) => {
       </div>
       <section className=" max-w-screen-lg mx-auto p-4 lg:p-8 dark:bg-gray-100 dark:text-gray-800">
         <div className="container mx-auto space-y-12">
-          <div className="flex flex-wrap overflow-hidden rounded-md shadow-sm lg:flex-row">
+         
+<div className="flex flex-wrap overflow-hidden rounded-md shadow-sm lg:flex-row">
             {imgGallery
               .filter((elem) => elem.name == name && elem.type == "basic")
               .map((item,id) => {
                 return (
-                  <Image
+                 <div>
+                   <Image
                   key={id}
-                    height={100}
-                    width={100}
+                   height={300}
+                   width={300}
                     src={item.image.src}
                     alt={item.name + item.type}
-                    className="h-96 dark:bg-gray-500 rounded-lg w-1/3 "
+                    className="h-96 w-96 dark:bg-gray-500 rounded-lg "
                   />
+                 </div>
                 );
               })}
-            <div className=" pl-0 md:pl-32 flex-1 p-6 dark:bg-gray-50">
-              <h3 className="text-3xl text-center md:text-left md:pl-8 font-bold">Basic {name} plan:-</h3>
+            <div className="flex flex-wrap justify-center flex-1 p-6 dark:bg-gray-50">
               <div class="pt-4">
+              <h3 className="text-5xl md:text-3xl font-bold mb-8">Basic {name} plan</h3>
                 <p class="font-semibold text-black text-left">
-                  <span class="pl-2 flex text-2xl">
+                  <span class="pl-2 flex md:text-2xl text-3xl">
                     <IoStar
                       style={{
                         fontSize: "10px",
@@ -172,11 +175,11 @@ const page = ({ params }) => {
                         marginRight: "4px",
                       }}
                     />{" "}
-                    Basic decoration with any two colors ballons only
+                   Basic decoration with any two colors ballons only
                   </span>
                 </p>
                 <p class="font-semibold text-black text-left pt-5">
-                  <span class="pl-2 flex text-2xl">
+                  <span class="pl-2 flex md:text-2xl text-3xl">
                     <IoStar
                       style={{
                         fontSize: "10px",
@@ -185,11 +188,13 @@ const page = ({ params }) => {
                         marginRight: "4px",
                       }}
                     />{" "}
-                    Basic Food (including starter, food , bevarges)
+                    Basic catering services (inluding starter,food, bevarges,
+                    deserts)
                   </span>
                 </p>
+                
                 <p class="font-semibold text-black text-left pt-5">
-                  <span class="pl-2 flex text-2xl">
+                  <span class="pl-2 flex md:text-2xl text-3xl">
                     <IoStar
                       style={{
                         fontSize: "10px",
@@ -198,20 +203,23 @@ const page = ({ params }) => {
                         marginRight: "4px",
                       }}
                     />{" "}
-                    Cake (1kg) , popper , Knife , candle
+                    Cake (1kg any flavour), popper , cap , knife, ribbon etc
                   </span>
                 </p>
+                
               </div>
-              <div className="block pt-12">
+              <div className="flex justify-end items-end ">
                 <a
                   href="/contact-form"
-                  className="w-full   p-4 font-bold text-2xl text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 rounded-lg  px-5 py-2.5 text-center me-2 mb-2"
+                  className="w-full   md:p-4 p-8 font-bold md:text-2xl text-4xl text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 rounded-lg  px-5 py-2.5 text-center me-2 mb-2"
                 >
                   Book now
                 </a>
               </div>
+             
             </div>
           </div>
+
           <div className="flex flex-wrap overflow-hidden rounded-md shadow-sm lg:flex-row-reverse">
             {imgGallery
               .filter(
@@ -221,19 +229,19 @@ const page = ({ params }) => {
                 return (
                   <Image
                   key={id}
-                    height={100}
-                    width={100}
+                  height={300}
+                  width={300}
                     src={item.image.src}
                     alt={item.name + item.type}
-                    className="h-96 dark:bg-gray-500 rounded-lg w-1/3 "
+                    className="h-96 w-96 dark:bg-gray-500 rounded-lg"
                   />
                 );
               })}
             <div className="flex flex-wrap justify-center flex-1 p-6 dark:bg-gray-50">
-              <h3 className="text-3xl font-bold">Premium {name} plan :-</h3>
               <div class="pt-4">
+              <h3 className="text-5xl md:text-3xl font-bold mb-8">Premium {name} plan</h3>
                 <p class="font-semibold text-black text-left">
-                  <span class="pl-2 flex text-2xl">
+                  <span class="pl-2 flex md:text-2xl text-3xl">
                     <IoStar
                       style={{
                         fontSize: "10px",
@@ -246,7 +254,7 @@ const page = ({ params }) => {
                   </span>
                 </p>
                 <p class="font-semibold text-black text-left pt-5">
-                  <span class="pl-2 flex text-2xl">
+                  <span class="pl-2 flex md:text-2xl text-3xl">
                     <IoStar
                       style={{
                         fontSize: "10px",
@@ -259,7 +267,7 @@ const page = ({ params }) => {
                   </span>
                 </p>
                 <p class="font-semibold text-black text-left pt-5">
-                  <span class="pl-2 flex text-2xl">
+                  <span class="pl-2 flex md:text-2xl text-3xl">
                     <IoStar
                       style={{
                         fontSize: "10px",
@@ -271,21 +279,9 @@ const page = ({ params }) => {
                     Cake (2 floor), popper , cap , knife, ribbon etc
                   </span>
                 </p>
+                
                 <p class="font-semibold text-black text-left pt-5">
-                  <span class="pl-2 flex text-2xl">
-                    <IoStar
-                      style={{
-                        fontSize: "10px",
-                        marginTop: "3px",
-                        color: "pink",
-                        marginRight: "4px",
-                      }}
-                    />{" "}
-                    Cake (2 floor), popper , cap , knife, ribbon etc
-                  </span>
-                </p>
-                <p class="font-semibold text-black text-left pt-5">
-                  <span class="pl-2 flex text-2xl">
+                  <span class="pl-2 flex md:text-2xl text-3xl">
                     <IoStar
                       style={{
                         fontSize: "10px",
@@ -298,7 +294,7 @@ const page = ({ params }) => {
                   </span>
                 </p>
                 <p class="font-semibold text-black text-left pt-5">
-                  <span class="pl-2 flex text-2xl">
+                  <span class="pl-2 flex md:text-2xl text-3xl">
                     <IoStar
                       style={{
                         fontSize: "10px",
@@ -311,14 +307,14 @@ const page = ({ params }) => {
                   </span>
                 </p>
               </div>
-              {/* <p className="my-2 text-2xl">
+              {/* <p className="my-2 md:text-2xl text-3xl">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
                 aliquam possimus quas, error esse quos.
               </p> */}
-              <div className="flex justify-end items-end ">
+              <div className=" ">
                 <a
                   href="/contact-form"
-                  className="w-full   p-4 font-bold text-2xl text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 rounded-lg  px-5 py-2.5 text-center me-2 mb-2"
+                  className="w-full flex justify-end  md:p-4 p-8 font-bold md:text-2xl text-4xl text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 rounded-lg  px-5 py-2.5 text-center me-2 mb-2"
                 >
                   Book now
                 </a>
@@ -332,19 +328,19 @@ const page = ({ params }) => {
                 return (
                   <Image
                   key={id}
-                    height={100}
-                    width={100}
+                  height={300}
+                  width={300}
                     src={item.image.src}
                     alt={item.name + item.type}
-                    className="h-96 dark:bg-gray-500 rounded-lg w-1/3 "
+                    className=" h-96 w-96 dark:bg-gray-500 rounded-lg"
                   />
                 );
               })}
             <div className="flex flex-wrap justify-center flex-1 p-6 dark:bg-gray-50">
-              <h3 className="text-3xl font-bold">Elite {name} plan :-</h3>
               <div class="pt-4">
+              <h3 className="text-5xl md:text-3xl font-bold mb-8 ">Elite {name} plan</h3>
                 <p class="font-semibold text-black text-left">
-                  <span class="pl-2 flex text-2xl">
+                  <span class="pl-2 flex md:text-2xl text-3xl">
                     <IoStar
                       style={{
                         fontSize: "10px",
@@ -357,7 +353,7 @@ const page = ({ params }) => {
                   </span>
                 </p>
                 <p class="font-semibold text-black text-left pt-5">
-                  <span class="pl-2 flex text-2xl">
+                  <span class="pl-2 flex md:text-2xl text-3xl">
                     <IoStar
                       style={{
                         fontSize: "10px",
@@ -371,7 +367,7 @@ const page = ({ params }) => {
                   </span>
                 </p>
                 <p class="font-semibold text-black text-left pt-5">
-                  <span class="pl-2 flex text-2xl">
+                  <span class="pl-2 flex md:text-2xl text-3xl">
                     <IoStar
                       style={{
                         fontSize: "10px",
@@ -384,7 +380,7 @@ const page = ({ params }) => {
                   </span>
                 </p>
                 <p class="font-semibold text-black text-left pt-5">
-                  <span class="pl-2 flex text-2xl">
+                  <span class="pl-2 flex md:text-2xl text-3xl">
                     <IoStar
                       style={{
                         fontSize: "10px",
@@ -397,7 +393,7 @@ const page = ({ params }) => {
                   </span>
                 </p>
                 <p class="font-semibold text-black text-left pt-5">
-                  <span class="pl-2 flex text-2xl">
+                  <span class="pl-2 flex md:text-2xl text-3xl">
                     <IoStar
                       style={{
                         fontSize: "10px",
@@ -410,14 +406,14 @@ const page = ({ params }) => {
                   </span>
                 </p>
               </div>
-              {/* <p className="my-2 text-2xl">
+              {/* <p className="my-2 md:text-2xl text-3xl">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
                 aliquam possimus quas, error esse quos.
               </p> */}
               <div className="flex justify-end items-end ">
                 <a
                   href="/contact-form"
-                  className="w-full   p-4 font-bold text-2xl text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 rounded-lg  px-5 py-2.5 text-center me-2 mb-2"
+                  className="w-full   md:p-4 p-8 font-bold md:text-2xl text-4xl text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 rounded-lg  px-5 py-2.5 text-center me-2 mb-2"
                 >
                   Book now
                 </a>

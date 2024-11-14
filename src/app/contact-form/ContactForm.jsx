@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
-import EventImage from "../../Common/EventImage";
+// import EventImage from "../../Common/EventImage";
+import emailjs from 'emailjs-com';
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     fullName: '',
@@ -16,14 +17,22 @@ const ContactForm = () => {
       [e.target.name]: e.target.value
     });
   };
-
+// console.log(process.env.SERVICE_ID, "process.env.SERVICE_ID")
   const handleSubmit = (e) => {
     e.preventDefault();
+    emailjs.sendForm("service_quup0v5", "template_hfqkv4f", e.target, "_qLfEI_a3r4W0Ut9m")
+       .then((result) => {
+         alert('Message Sent Successfully')
+       }, (error) => {
+         console.log(error.text);
+         alert('Something went wrong!')
+       });
+     e.target.reset()
     // Handle form submission
   };
   return (
     <div className='bg-web'>  
-    <div className="md:flex block justify-center items-start  p-28">
+    <div className="md:flex block justify-center items-start p-14  md:p-28">
       <div className="w-full md:w-1/2 text-white pr-10">
         <h2 className="text-6xl font-bold mb-6">Step By Step Process</h2>
         <div className="mb-4">
@@ -64,50 +73,50 @@ const ContactForm = () => {
 
       <div className="w-full md:w-1/2 bg-white p-8 rounded-md shadow-lg">
         <h2 className="text-5xl font-bold mb-4">Request Callback</h2>
-        <p className="text-3xl mb-6">Please fill your details, we will get back to you shortly.</p>
+        <p className="md:text-3xl text-4xl mb-6">Please fill your details, we will get back to you shortly.</p>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label className="block text-gray-700 text-2xl font-bold my-4">Full Name</label>
+            <label className="block text-gray-700 md:text-2xl text-4xl font-bold my-4">Full Name</label>
             <input
               type="text"
               name="fullName"
               value={formData.fullName}
               onChange={handleChange}
-              className="w-full px-3 py-4 text-2xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-pink-500"
+              className="w-full px-3 md:py-4 py-10 md:text-2xl text-4xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-pink-500"
               placeholder="Enter Your Name"
             />
           </div>
           <div className="mb-4">
-            <label className="block text-gray-700 text-2xl font-bold my-4">Phone Number <span className="text-red-500">*</span></label>
+            <label className="block text-gray-700 md:text-2xl text-4xl font-bold my-4">Phone Number <span className="text-red-500">*</span></label>
             <input
               type="tel"
               name="phoneNumber"
               value={formData.phoneNumber}
               onChange={handleChange}
-              className="w-full px-3 py-4 text-2xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-pink-500"
+              className="w-full px-3 md:py-4 py-10 md:text-2xl text-4xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-pink-500"
               placeholder="Enter Your Phone Number"
               required
             />
           </div>
           <div className="mb-4">
-            <label className="block text-gray-700 text-2xl font-bold my-4">Enter Your Address <span className="text-red-500">*</span></label>
+            <label className="block text-gray-700 md:text-2xl text-4xl font-bold my-4">Enter Your Address <span className="text-red-500">*</span></label>
             <input
               type="text"
               name="address"
               value={formData.address}
               onChange={handleChange}
-              className="w-full px-3 py-4 text-2xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-pink-500"
+              className="w-full px-3 md:py-4 py-10 md:text-2xl text-4xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-pink-500"
               placeholder="Enter Your Full Address"
               required
             />
           </div>
           <div className="mb-4">
-            <label className="block text-gray-700 text-2xl font-bold my-4">Select your Occasion</label>
+            <label className="block text-gray-700 md:text-2xl text-4xl font-bold my-4">Select your Occasion</label>
             <select
               name="occasion"
               value={formData.occasion}
               onChange={handleChange}
-              className="w-full px-3 py-4 text-2xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-pink-500"
+              className="w-full px-3 md:py-4 py-10 md:text-2xl text-4xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-pink-500"
             >
               <option value="" disabled>Select</option>
               <option value="Birthday">Birthday</option>
@@ -123,12 +132,12 @@ const ContactForm = () => {
             </select>
           </div>
           <div className="mb-4">
-            <label className="block text-gray-700 text-2xl font-bold my-4">Select your Plan Type</label>
+            <label className="block text-gray-700 md:text-2xl text-4xl font-bold my-4">Select your Plan Type</label>
             <select
-              name="occasion"
+              name="plan"
               value={formData.plan}
               onChange={handleChange}
-              className="w-full px-3 py-4 text-2xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-pink-500"
+              className="w-full px-3 md:py-4 py-10 md:text-2xl text-4xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-pink-500"
             >
               <option value="" disabled>Select</option>
               <option value="Basic">Basic</option>
@@ -139,7 +148,7 @@ const ContactForm = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-pink-600 text-white py-2 px-4 rounded-md shadow hover:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-500"
+            className="w-full bg-pink-600 text-white md:py-2 py-10 px-4 rounded-md shadow hover:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-500"
           >
             Submit
           </button>

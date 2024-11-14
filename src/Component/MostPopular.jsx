@@ -16,7 +16,7 @@ const MostPopular = () => {
           link: "birthday-event-planner-in-lucknow",
           price:4999,
           imgarr:[img1,img2,img3],
-          desc:"Best Birthday Planners in Lucknow"
+          desc:"Best Birthday event Planners in Lucknow"
         },
         {
           key: 2,
@@ -83,17 +83,17 @@ const MostPopular = () => {
             <div className="container flex justify-center">
               <div className="max-w-sm py-8 rounded-2xl">
                 <div className="bg-white relative shadow-lg hover:shadow-xl transition duration-500 rounded-lg">
-                <div style={{height:"180px"}}>
+                <div className='h-72'>
                  <Image 
-                 height={100}
-                  width={100} 
+                 height={234}
+                  width={189} 
                   src={elem.image.src} 
                   alt='mostpopular-image'
                   className="w-full h-full rounded-2xl" />
               </div>
                   <div className="py-6 px-8 rounded-lg bg-white">
-                    <h3 className="text-gray-700 font-bold text-2xl mb-3 hover:text-gray-900 hover:cursor-pointer">{elem.text}</h3>
-                    <p className="text-gray-700 text-xl">{elem?.desc}</p>
+                    <h3 className="text-gray-700 font-bold md:text-2xl text-3xl mb-3 hover:text-gray-900 hover:cursor-pointer">{elem.text}</h3>
+                    <p className="text-gray-700 text-xl md:text-2xl">{elem?.desc}</p>
                    <div className='text-end'>
                      <Link className="mt-6 py-3 px-4 bg-pink-600 text-white text-2xl rounded-lg shadow-md hover:shadow-lg transition duration-300" 
                     href={`/${elem.link}`}>View details</Link></div>

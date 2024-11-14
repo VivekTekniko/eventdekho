@@ -79,19 +79,19 @@ const Footer = () => {
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75">Decoration </a>
+              <a href="/contact-form" className="text-white text-2xl font-medium transition hover:opacity-75">Decoration </a>
             </li>
 
             <li>
-              <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75"> Catering </a>
+              <a href="/contact-form" className="text-white text-2xl font-medium transition hover:opacity-75"> Catering </a>
             </li>
 
             <li>
-              <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75"> Photography </a>
+              <a href="/contact-form" className="text-white text-2xl font-medium transition hover:opacity-75"> Photography </a>
             </li>
 
             <li>
-              <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75"> Cleaning  </a>
+              <a href="/contact-form" className="text-white text-2xl font-medium transition hover:opacity-75"> Cleaning  </a>
             </li>
           </ul>
         </div>
@@ -101,24 +101,24 @@ const Footer = () => {
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75"> Birthday </a>
+              <a href="/birthday-event-planner-in-lucknow" className="text-white text-2xl font-medium transition hover:opacity-75"> Birthday </a>
             </li>
 
             <li>
-              <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75"> Anniversary </a>
+              <a href="/anniversary-event-planner-in-lucknow" className="text-white text-2xl font-medium transition hover:opacity-75"> Anniversary </a>
             </li>
 
             <li>
-              <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75"> Corpotate Events </a>
+              <a href="/corporate-event-planner-in-lucknow" className="text-white text-2xl font-medium transition hover:opacity-75"> Corpotate Events </a>
             </li>
             <li>
-              <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75">House warming </a>
+              <a href="/house-warming-event-planner-in-lucknow" className="text-white text-2xl font-medium transition hover:opacity-75">House warming </a>
             </li>
              <li>
-              <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75"> Baby Shower </a>
+              <a href="/baby-shower-planner-in-lucknow" className="text-white text-2xl font-medium transition hover:opacity-75"> Baby Shower </a>
             </li>
             <li>
-              <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75"> Rituals Events </a>
+              <a href="/ritual-event-planner-in-lucknow" className="text-white text-2xl font-medium transition hover:opacity-75"> Rituals Events </a>
             </li>
           </ul>
         </div>
@@ -128,7 +128,7 @@ const Footer = () => {
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75"> Contact Us </a>
+              <a href="/contact-form" className="text-white text-2xl font-medium transition hover:opacity-75"> Contact Us </a>
             </li>
 
             <li>
@@ -136,10 +136,10 @@ const Footer = () => {
             </li>
 
             <li>
-              <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75"> About Us </a>
+              <a href="event-planners-in-lucknow" className="text-white text-2xl font-medium transition hover:opacity-75"> About Us </a>
             </li>
             <li>
-              <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75"> Our Menu </a>
+              <a href="catering-services-in-lucknow" className="text-white text-2xl font-medium transition hover:opacity-75"> Our Menu </a>
             </li>
           </ul>
         </div>
@@ -149,11 +149,11 @@ const Footer = () => {
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75"> Terms & Conditions </a>
+              <a href="terms&condition" className="text-white text-2xl font-medium transition hover:opacity-75"> Terms & Conditions </a>
             </li>
 
             <li>
-              <a href="#" className="text-white text-2xl font-medium transition hover:opacity-75"> Privacy & Policy </a>
+              <a href="privacy-policy" className="text-white text-2xl font-medium transition hover:opacity-75"> Privacy & Policy </a>
             </li>
 
           </ul>
