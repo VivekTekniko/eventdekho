@@ -150,9 +150,9 @@ const page = ({ params }) => {
               .filter((elem) => elem.name == name && elem.type == "basic")
               .map((item,id) => {
                 return (
-                 <div>
+                 <div    key={id}>
                    <Image
-                  key={id}
+               
                    height={300}
                    width={300}
                     src={item.image.src}
