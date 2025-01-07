@@ -30,7 +30,7 @@ const Component = () => {
     <div className=" text-center pt-40">
       <span>
         
-        Welcome to PartKaroIndia
+        Welcome to EventDekho
         
       </span>
       <h2>Basic Menu</h2>
@@ -131,7 +131,7 @@ const Component = () => {
           <span>N.B:</span> You can customize your food also &amp; don&apos;t
           waste your food.
         </h2>
-        <p className='text-2xl'>Address: Mirpur DOHS, House No-167/170, Avenue-01.</p>
+        <p className='text-2xl'>Address:Matiyari Lucknow , 9140734396.</p>
       </div>
     </div>
   </div>
@@ -277,7 +277,7 @@ const Component = () => {
           <span>N.B:</span> You can customize your food also &amp; don&apos;t
           waste your food.
         </h2>
-        <p className='text-2xl'>Address: Mirpur DOHS, House No-167/170, Avenue-01.</p>
+        <p className='text-2xl'>Address:Matiyari Lucknow , 9140734396.</p>
       </div>
     </div>
   </div>
@@ -429,7 +429,7 @@ const Component = () => {
           <span>N.B:</span> You can customize your food also &amp; don&apos;t
           waste your food.
         </h2>
-        <p className='text-2xl'>Address: Mirpur DOHS, House No-167/170, Avenue-01.</p>
+        <p className='text-2xl'>Address:Matiyari Lucknow , 9140734396.</p>
       </div>
     </div>
   </div>

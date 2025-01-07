@@ -11,24 +11,27 @@ const TreatmentList = () => {
     id:"1",
     image:img1,
     name:"Decoration",
+    slug:"event-decoration-in-lucknow"
 },
 {
   id:"1",
   image:img2,
   name:"Catering",
+  slug:"catering-services-in-lucknow"
   
 },
 {
   id:"1",
   image:img3,
   name:"Photography",
+  slug:"/contact-form"
   
 },
 {
   id:"1",
   image:img4,
   name:"Cleanup after party",
-  
+  slug:"/contact-form"
 },
 
 ]
@@ -62,7 +65,11 @@ const TreatmentList = () => {
           return (
             <a
               className="m-12"
+<<<<<<< HEAD
               href="/contact-form"
+=======
+              href={elem.slug}
+>>>>>>> vivek
               key={id}
             >
               <div className=" shadow-lg rounded-2xl">

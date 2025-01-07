@@ -79,7 +79,7 @@ const MostPopular = () => {
       <div className="grid grid-cols-2 md:grid-cols-3 p-4">
         {treatmentData.map((elem,id) => {
           return (
-            <Link href={`/${elem.link}`} className="flex justify-center items-center" key={id}>
+            <Link href={`/${elem.link}`} className="flex justify-center items-center transition-transform duration-500 hover:scale-110" key={id}>
             <div className="container flex justify-center">
               <div className="max-w-sm py-8 rounded-2xl">
                 <div className="bg-white relative shadow-lg hover:shadow-xl transition duration-500 rounded-lg">
