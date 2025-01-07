@@ -158,16 +158,14 @@ const page = ({ params }) => {
               .filter((elem) => elem.name == name && elem.type == "basic")
               .map((item, id) => {
                 return (
-                  <div key={id}>
-                    <Image
-
-                      height={300}
-                      width={300}
-                      src={item.image.src}
-                      alt={item.name + item.type}
-                      className="md:h-96 md:w-96 w-full h-full dark:bg-gray-500 rounded-lg "
-                    />
-                  </div>
+                  <Image
+                    key={id}
+                    height={300}
+                    width={300}
+                    src={item.image.src}
+                    alt={item.name + item.type}
+                    className="md:h-96 md:w-96 w-full h-full dark:bg-gray-500 rounded-lg "
+                  />
                 );
               })}
             <div className="flex flex-wrap justify-center flex-1 pl-6 dark:bg-gray-50">
@@ -214,23 +212,23 @@ const page = ({ params }) => {
               <div class=" max-w-5xl md:pt-0 pt-4">
                 <h3 className="text-5xl md:text-3xl  font-bold mb-4">Premium {name} plan</h3>
                 <p class="font-normal text-justify text-gray-800 text-2xl">
-                We are the best <strong>event planner in Lucknow</strong>, known for turning every event into a grand celebration with premium services. Our premium decoration package includes elegant balloons, banners, LED lighting, and more, 
-                creating a stunning atmosphere for your event. We also offer <strong>premium food services</strong>, including starters, main courses, beverages, and desserts, ensuring that your guests have a delightful culinary experience. For the cake, we provide a beautiful <strong>2-tier cake, along with poppers, caps, knives, ribbons</strong>, and all the essentials to make your 
-                celebration complete. As the top <strong>event planner in Lucknow</strong>, we also take care of cleaning up the party area after the event, so you can relax and enjoy. Plus, we offer professional <strong>DSLR camera services</strong> to capture every precious moment of your special day, 
-                ensuring you have beautiful memories to cherish. With our attention to detail and commitment to excellence, we guarantee an unforgettable experience for you and your guests.
+                  We are the best <strong>event planner in Lucknow</strong>, known for turning every event into a grand celebration with premium services. Our premium decoration package includes elegant balloons, banners, LED lighting, and more,
+                  creating a stunning atmosphere for your event. We also offer <strong>premium food services</strong>, including starters, main courses, beverages, and desserts, ensuring that your guests have a delightful culinary experience. For the cake, we provide a beautiful <strong>2-tier cake, along with poppers, caps, knives, ribbons</strong>, and all the essentials to make your
+                  celebration complete. As the top <strong>event planner in Lucknow</strong>, we also take care of cleaning up the party area after the event, so you can relax and enjoy. Plus, we offer professional <strong>DSLR camera services</strong> to capture every precious moment of your special day,
+                  ensuring you have beautiful memories to cherish. With our attention to detail and commitment to excellence, we guarantee an unforgettable experience for you and your guests.
                 </p>
                 <div className="flex justify-end items-end ">
-                <a
-                  href="/contact-form"
-                  className="md:px-6 py-4  font-bold md:text-2xl text-4xl text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 rounded-lg  px-8 text-center me-2 mb-2"
-                >
-                  Book now
-                </a>
-              </div>
+                  <a
+                    href="/contact-form"
+                    className="md:px-6 py-4  font-bold md:text-2xl text-4xl text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 rounded-lg  px-8 text-center me-2 mb-2"
+                  >
+                    Book now
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-             
+
           <div className="flex flex-wrap overflow-hidden rounded-md shadow-sm lg:flex-row">
             {imgGallery
               .filter((elem) => elem.name == name && elem.type == "elite")
@@ -247,15 +245,15 @@ const page = ({ params }) => {
                 );
               })}
             <div className="flex flex-wrap justify-center flex-1 pl-6 dark:bg-gray-50">
-            <div class=" max-w-5xl md:pt-0 pt-4">
+              <div class=" max-w-5xl md:pt-0 pt-4">
                 <h3 className="text-5xl md:text-3xl font-bold mb-4">Elite {name} plan</h3>
                 <p class="font-normal text-justify text-gray-800 text-2xl">
-                We are the best <strong>event planner in Lucknow</strong>, offering elite theme-based decoration services that are fully customizable to match your vision and style. Whether you&apos;re planning a birthday, corporate event, or any special occasion, we design stunning setups with attention to detail, 
-                creating a truly memorable atmosphere. Our elite catering services include a range of exquisite <strong>starters, main courses, beverages, and desserts</strong>, ensuring a delicious experience for your guests. In addition to the food, we provide a customizable cake, poppers, caps, knives, ribbons, and everything needed to complete the celebration. As the top <strong>event planner in Lucknow</strong>, 
-                we also handle cleaning the party area after the event, so you don&apos;t have to worry about anything. To capture the beauty of your special moments, we offer professional DSLR camera services with <strong>specialist photographers</strong>, 
-                making sure your memories are preserved in the highest quality. With our dedication to perfection, we guarantee an extraordinary event from start to finish
+                  We are the best <strong>event planner in Lucknow</strong>, offering elite theme-based decoration services that are fully customizable to match your vision and style. Whether you&apos;re planning a birthday, corporate event, or any special occasion, we design stunning setups with attention to detail,
+                  creating a truly memorable atmosphere. Our elite catering services include a range of exquisite <strong>starters, main courses, beverages, and desserts</strong>, ensuring a delicious experience for your guests. In addition to the food, we provide a customizable cake, poppers, caps, knives, ribbons, and everything needed to complete the celebration. As the top <strong>event planner in Lucknow</strong>,
+                  we also handle cleaning the party area after the event, so you don&apos;t have to worry about anything. To capture the beauty of your special moments, we offer professional DSLR camera services with <strong>specialist photographers</strong>,
+                  making sure your memories are preserved in the highest quality. With our dedication to perfection, we guarantee an extraordinary event from start to finish
                 </p>
-                
+
               </div>
               <div className="flex justify-end items-end ">
                 <a
