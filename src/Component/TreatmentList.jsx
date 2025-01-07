@@ -65,11 +65,7 @@ const TreatmentList = () => {
           return (
             <a
               className="m-12"
-<<<<<<< HEAD
-              href="/contact-form"
-=======
               href={elem.slug}
->>>>>>> vivek
               key={id}
             >
               <div className=" shadow-lg rounded-2xl">
