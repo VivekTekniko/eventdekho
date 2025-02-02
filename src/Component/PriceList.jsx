@@ -14,7 +14,7 @@ const PriceList=()=>{
           <div className="grid md:grid-cols-3 grid-cols-2 p-4">
            
           <div class=" p-4 m-4 bg-white text-center rounded-3xl transition-transform duration-500 hover:scale-110  shadow-xl">
-                    <h3 class="text-pink-600 font-bold text-4xl">Basic</h3>
+                    <h3 class="text-web font-bold text-4xl">Basic</h3>
                     <p class="pt-2 tracking-wide flex justify-center align-center">
                         <span class="text-black align-top text-2xl">₹ </span>
                         <span class="text-2xl font-semibold">699</span>
@@ -39,7 +39,7 @@ const PriceList=()=>{
                         </p>
 
                         <a href="/contact-form" class="">
-                            <p class="w-full py-2 bg-pink-600 mt-8 rounded-xl text-white" style={{marginTop:"12rem"}}>
+                            <p class="w-full py-2 bg-web mt-8 rounded-xl text-white" style={{marginTop:"12rem"}}>
                                 <span class="font-medium">
                                   Get Quotes.
                                 </span>
@@ -51,7 +51,7 @@ const PriceList=()=>{
                     </div>
                 </div>
                 <div class=" p-4 m-4 bg-white text-center rounded-3xl transition-transform duration-500 hover:scale-110  shadow-xl">
-                    <h3 class="text-pink-600 font-bold text-4xl">Premium</h3>
+                    <h3 class="text-web font-bold text-4xl">Premium</h3>
                     <p class="pt-2 tracking-wide flex justify-center align-center">
                         <span class="text-black align-top text-2xl">₹ </span>
                         <span class="text-2xl font-semibold">999</span>
@@ -87,7 +87,7 @@ const PriceList=()=>{
                         </p>
 
                         <a href="/contact-form" class="">
-                            <p class="w-full py-2 bg-pink-600 mt-8 rounded-xl text-white" style={{marginTop:"4rem"}}>
+                            <p class="w-full py-2 bg-web mt-8 rounded-xl text-white" style={{marginTop:"4rem"}}>
                                 <span class="font-medium">
                                   Get Quotes.
                                 </span>
@@ -99,7 +99,7 @@ const PriceList=()=>{
                     </div>
                 </div>
                 <div class=" p-4 m-4 bg-white text-center rounded-3xl transition-transform duration-500 hover:scale-110  shadow-xl">
-                    <h3 class="text-pink-600 font-bold text-4xl">Elite</h3>
+                    <h3 class="text-web font-bold text-4xl">Elite</h3>
                     <p class="pt-2 tracking-wide flex justify-center align-center ">
                         <span class="text-black align-top text-2xl">₹ </span>
                         <span class="text-2xl font-semibold">1499</span>
@@ -135,7 +135,7 @@ const PriceList=()=>{
                         </p>
 
                         <a href="/contact-form" class="">
-                            <p class="w-full py-2 bg-pink-600 mt-8 rounded-xl text-white" >
+                            <p class="w-full py-2 bg-web mt-8 rounded-xl text-white" >
                                 <span class="font-medium">
                                   Get Quotes.
                                 </span>

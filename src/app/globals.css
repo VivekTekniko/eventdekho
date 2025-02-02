@@ -19,7 +19,8 @@
 /* Global ----------------------------------csss------------------------- */
 
 :root {
-  --primary-color: rgb(219 39 119);
+  /* --primary-color: rgb(219 39 119); */
+  --primary-color:#f705a4 
 }
 
 *,

@@ -41,7 +41,7 @@ const Component2 = () => {
                   </li>
                 </ul>
                 <a href='/contact-form'
-                  class="px-6 py-2 mt-8 rounded-lg text-white md:text-2xl text-3xl tracking-wider font-medium outline-none border-2 border-pink-600 bg-pink-600 hover:bg-transparent hover:text-black transition-all duration-300">
+                  class="px-6 py-2 mt-8 rounded-lg text-white md:text-2xl text-3xl tracking-wider font-medium outline-none border-2 border-pink-600 bg-web hover:bg-transparent hover:text-black transition-all duration-300">
                   Book now
                 </a>
               </div>
@@ -62,7 +62,7 @@ const Component2 = () => {
                   </li>
                 </ul>
                 <a href='/contact-form'
-                  class="px-6 py-2 mt-8 rounded-lg text-white md:text-2xl text-3xl tracking-wider font-medium outline-none border-2 border-pink-600 bg-pink-600 hover:bg-transparent hover:text-black transition-all duration-300">
+                  class="px-6 py-2 mt-8 rounded-lg text-white md:text-2xl text-3xl tracking-wider font-medium outline-none border-2 border-pink-600 bg-web hover:bg-transparent hover:text-black transition-all duration-300">
                   Book now
                 </a>
               </div>
@@ -88,7 +88,7 @@ const Component2 = () => {
                   </li>
                 </ul>
                 <a href='/contact-form'
-                  class="px-6 py-2 mt-8 rounded-lg text-white md:text-2xl text-3xl tracking-wider font-medium outline-none border-2 border-pink-600 bg-pink-600 hover:bg-transparent hover:text-black transition-all duration-300">
+                  class="px-6 py-2 mt-8 rounded-lg text-white md:text-2xl text-3xl tracking-wider font-medium outline-none border-2 border-pink-600 bg-web hover:bg-transparent hover:text-black transition-all duration-300">
                   Book now
                 </a>
               </div>

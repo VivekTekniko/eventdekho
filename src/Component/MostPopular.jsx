@@ -95,7 +95,7 @@ const MostPopular = () => {
                     <h3 className="text-gray-700 font-bold md:text-2xl text-3xl mb-3 hover:text-gray-900 hover:cursor-pointer">{elem.text}</h3>
                     <p className="text-gray-700 text-xl md:text-2xl">{elem?.desc}</p>
                    <div className='text-end'>
-                     <Link className="mt-6 py-3 px-4 bg-pink-600 text-white text-2xl rounded-lg shadow-md hover:shadow-lg transition duration-300" 
+                     <Link className="mt-6 py-3 px-4 bg-web text-white text-2xl rounded-lg shadow-md hover:shadow-lg transition duration-300" 
                     href={`/${elem.link}`}>View details</Link></div>
                   </div>
                   {/* <div className="absolute top-2 right-2 py-2 px-2 text-2xl bg-white rounded-lg">

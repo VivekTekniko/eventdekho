@@ -37,7 +37,7 @@ const ContactForm = () => {
         <h2 className="text-6xl font-bold mb-6">Step By Step Process</h2>
         <div className="mb-4">
           <div className="flex items-start my-8">
-            <span className="text-4xl font-bold bg-white text-pink-600 rounded-full h-16 w-24 p-4 flex justify-center items-center">1</span>
+            <span className="text-4xl font-bold bg-white text-web rounded-full h-16 w-24 p-4 flex justify-center items-center">1</span>
             <p className="ml-4">
               <span className="font-bold text-4xl">Fill Out The Form</span>
               <br />
@@ -45,7 +45,7 @@ const ContactForm = () => {
             </p>
           </div>
           <div className="flex items-start my-8">
-            <span className="text-4xl font-bold bg-white text-pink-600 rounded-full h-16 w-24 p-4 flex justify-center items-center">2</span>
+            <span className="text-4xl font-bold bg-white text-web rounded-full h-16 w-24 p-4 flex justify-center items-center">2</span>
             <p className="ml-4">
               <span className="font-bold text-4xl">Executive Call</span>
               <br />
@@ -53,7 +53,7 @@ const ContactForm = () => {
             </p>
           </div>
           <div className="flex items-start my-8">
-            <span className="text-4xl font-bold bg-white text-pink-600 rounded-full h-16 w-24 p-4 flex justify-center items-center">3</span>
+            <span className="text-4xl font-bold bg-white text-web rounded-full h-16 w-24 p-4 flex justify-center items-center">3</span>
             <p className="ml-4">
               <span className="font-bold text-4xl">Decoration</span>
               <br />
@@ -61,7 +61,7 @@ const ContactForm = () => {
             </p>
           </div>
           <div className="flex items-start my-8">
-            <span className="text-4xl font-bold bg-white text-pink-600 rounded-full h-16 w-24 p-4 flex justify-center items-center">4</span>
+            <span className="text-4xl font-bold bg-white text-web rounded-full h-16 w-24 p-4 flex justify-center items-center">4</span>
             <p className="ml-4">
               <span className="font-bold text-4xl">Customer Satisfaction</span>
               <br />
@@ -148,7 +148,7 @@ const ContactForm = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-pink-600 text-white md:py-2 py-10 px-4 rounded-md shadow hover:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-500"
+            className="w-full bg-web text-white md:py-2 py-10 px-4 rounded-md shadow hover:bg-pink-700 focus:outline-none focus:ring focus:ring-pink-500"
           >
             Submit
           </button>
