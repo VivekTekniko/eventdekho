@@ -10,12 +10,10 @@ const Header = () => {
   return (
     <div className="sticky top-0 z-50">
     <nav className="bg-white shadow-lg border-gray-200 dark:bg-gray-900 z-50">
-      <div className="max-w-screen-xl flex p-4 items-center justify-between md:mx-auto">
-        <Link href='/' className="flex md:basis-1/5 justify-between items-center">
-   <div className="h-24 w-full">
+      <div className="max-w-screen-xl flex p-2 items-center justify-between md:mx-auto">
+        <Link href='/' className="flex md:basis-1/5 justify-between items-center" style={{height:"50px"}}>
     <img src={logo.src} className="h-full w-full" alt="eventdekho-logo" />
    {/* <Image height={120} width={120} src={logo.src} className='h-full w-full' alt="Event-dekho-partyplanner"/> */}
-   </div>
 
         </Link>
        

@@ -7,47 +7,11 @@ import img from "../../Assets/event-banner.jpg"
 import ContactForm from '../contact-form/ContactForm';
 import Component2 from "./Component2";
 import About from "../../Component/About";
-import Head from 'next/head';
 import Image from 'next/image';
 
 const page = () => {
   return (
     <>
-      <Head>
-        {/* Title Tag */}
-        <title>Best Event Planners in Lucknow | Event & Party Planner - EventDekho</title>
-        <link rel="canonical" href="https://www.eventdekho.in/event-planners-in-lucknow" />
-
-        {/* Meta Description */}
-        <meta
-          name="description"
-          content="Looking for the best event planners in Lucknow? EventDekho offers expert event, party, and wedding planning services in Lucknow. Contact us for personalized event planning."
-        />
-
-        {/* Meta Keywords */}
-        <meta
-          name="keywords"
-          content="best event planners in Lucknow, event planner in Lucknow, party planner in Lucknow, wedding planner Lucknow, corporate events Lucknow , birthday events Lucknow , anniverasry event Lucknow , surprise planning in Lucknow Event planner in Lucknow , event organiser in Lucknow , event management in Lucknow , event managment company in Lucknow , best event managment companies in Lucknow"
-        />
-
-        {/* Open Graph Meta Tags for Social Sharing */}
-        <meta property="og:title" content="Best Event Planners in Lucknow | Event & Party Planner - EventDekho" />
-        <meta
-          property="og:description"
-          content="Looking for the best event planners in Lucknow? EventDekho offers expert event, party, and wedding planning services in Lucknow."
-        />
-        <meta property="og:image" content="https://www.eventdekho.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.eb280abe.png&w=256&q=75" />
-        <meta property="og:url" content="https://www.eventdekho.in/" />
-        <meta property="og:type" content="website" />
-
-        {/* For responsive design */}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <html lang="en-IN" />
-        <meta name="geo.region" content="IN" />
-        <meta name="geo.placename" content="India" />
-        <meta name="geo.position" content="26.8467;80.9462" />
-      </Head>
       <div>
         <Header />
         <div className="font-sans p-4">
@@ -113,3 +77,35 @@ const page = () => {
 }
 
 export default page
+
+export const metadata = {
+  title: 'Best Event Planners in Lucknow | Event & Party Planner - EventDekho',
+  description:
+    'Looking for the best event planners in Lucknow? EventDekho offers expert event, party, and wedding planning services in Lucknow. Contact us for personalized event planning.',
+  keywords:
+    'best event planners in Lucknow, event planner in Lucknow, party planner in Lucknow, wedding planner Lucknow, corporate events Lucknow, birthday events Lucknow, anniversary event Lucknow, surprise planning in Lucknow, event planner in Lucknow, event organiser in Lucknow, event management in Lucknow, event management company in Lucknow, best event management companies in Lucknow',
+  openGraph: {
+    title: 'Best Event Planners in Lucknow | Event & Party Planner - EventDekho',
+    description:
+      'Looking for the best event planners in Lucknow? EventDekho offers expert event, party, and wedding planning services in Lucknow.',
+    image:
+      'https://www.eventdekho.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.eb280abe.png&w=256&q=75',
+    url: 'https://www.eventdekho.in/',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Best Event Planners in Lucknow | Event & Party Planner - EventDekho',
+    description:
+      'Looking for the best event planners in Lucknow? EventDekho offers expert event, party, and wedding planning services in Lucknow.',
+    image:
+      'https://www.eventdekho.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.eb280abe.png&w=256&q=75',
+  },
+  robots: 'index, follow',
+  viewport: 'width=device-width, initial-scale=1.0',
+  geo: {
+    region: 'IN',
+    placename: 'India',
+    position: '26.8467;80.9462',
+  },
+};

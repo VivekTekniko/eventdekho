@@ -122,26 +122,6 @@ const page = ({ params }) => {
 
   return (
     <div>
-      <Head>
-        {/* Title Tag */}
-        <title>{params.slug} in Lucknow</title>
-
-        {/* Meta Description */}
-        <meta
-          name="description"
-          content={`we are the best ${params.slug} planner in Lucknow`}
-        />
-
-        {/* Meta Keywords */}
-        <meta
-          name="keywords"
-          content={`${params.slug},Best event planner in lucknow , Best birthday planner in lucknow , Best Anniversary planner in Lucknow , Best House Warming planner in lucknow , Best Ritual Events planner in Lucknow , Best Corporate Event planner in Lucknow,Event Decoratos in lucknow , Best catering services in lucknow , Photography/videography in lucknow , Post Party cleanup in lucknow `}
-        />
-        <html lang="en-IN" />
-        <meta name="geo.region" content="IN" />
-        <meta name="geo.placename" content="India" />
-        <meta name="geo.position" content="26.8467;80.9462" />
-      </Head>
       <Header />
       <div class="max-w-screen-lg mx-auto">
         <header>
@@ -275,3 +255,43 @@ const page = ({ params }) => {
 };
 
 export default page;
+
+// app/[slug]/page.js
+
+export async function generateMetadata({ params }) {
+  // Extract slug dynamically from the URL
+  const slug = params.slug;
+
+  return {
+    title: `${slug} in Lucknow`,
+    description: `We are the best ${slug} planner in Lucknow`,
+    keywords: `${slug}, Best event planner in Lucknow, Best birthday planner in Lucknow, Best Anniversary planner in Lucknow, Best House Warming planner in Lucknow, Best Ritual Events planner in Lucknow, Best Corporate Event planner in Lucknow, Event Decorators in Lucknow, Best catering services in Lucknow, Photography/videography in Lucknow, Post Party cleanup in Lucknow`,
+    openGraph: {
+      title: `${slug} in Lucknow | EventDekho`,
+      description: `Looking for the best ${slug} planner in Lucknow? EventDekho offers expert services for your events.`,
+      images: [
+        {
+          url: `https://www.eventdekho.in/_next/static/media/logo.0513172d.png`,
+          width: 256,
+          height: 256,
+          alt: `${slug} Planner Logo`,
+        },
+      ],
+      url: `https://www.eventdekho.in/${slug}-planner-lucknow`,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      image: `https://www.eventdekho.in/_next/static/media/logo.0513172d.png`,
+    },
+    viewport: "width=device-width, initial-scale=1.0",
+    geo: {
+      region: "IN",
+      placename: "India",
+      position: "26.8467;80.9462",
+    },
+  };
+}
+
+
+

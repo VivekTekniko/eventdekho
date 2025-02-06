@@ -120,12 +120,20 @@ summary,
 
 .bg-grad-popular{
   background: linear-gradient(to bottom,  #ffff 50%,#fff 50%);
+}
 
+.bannerImg{
+  width: 100%;
+  height: 500px;
 }
 
 @media screen and (max-width:767px) {
   .scroll-height {
     max-height: fit-content !important
+  }
+  .bannerImg{
+    width: 100%;
+    height: 300px;
   }
 }
 .scroll-height{

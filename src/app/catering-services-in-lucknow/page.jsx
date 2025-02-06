@@ -2,53 +2,22 @@ import React from 'react';
 import Header from "../../Common/Header";
 import Footer from "../../Common/Footer";
 import Component from './Component';
-import img from "../../Assets/event-banner.jpg"
+import img from "../../Assets/cateringlatest.jpg"
 // import MostPopular from '@/Component/MostPopular';
 import ContactForm from '../contact-form/ContactForm';
 import About from "../../Component/About";
 import EventImage from "@/Common/EventImage";
 import Image from 'next/image';
-import Head from 'next/head';
 const page = () => {
   return (
     <div>
-      <Head>
-        {/* Title Tag */}
-        <title>Best Catering Services in Lucknow</title>
-        <link rel="canonical" href="https://www.eventdekho.in/catering-services-in-lucknow" />
-        {/* Meta Description */}
-        <meta
-          name="description"
-          content="Looking for the best catering services in Lucknow?At Event Dekho, we bring the rich culinary heritage of Lucknow right to your event. Our catering services are tailored to deliver an unforgettable dining experience that combines traditional flavors with modern presentation."
-        />
-
-        {/* Meta Keywords */}
-        <meta
-          name="keywords"
-          content="best catering services in Lucknow, wedding catering Lucknow, corporate catering Lucknow ,Best event planner in lucknow , Best birthday planner in lucknow , Best Anniversary planner in Lucknow , Best House Warming planner in lucknow , Best Ritual Events planner in Lucknow , Best Corporate Event planner in Lucknow,Event Decoratos in lucknow  , Photography/videography in lucknow , Post Party cleanup in lucknow"
-        />
-
-        {/* Open Graph Meta Tags for Social Sharing */}
-        <meta property="og:title" content="Best catering services in Lucknow | Event & Party Planner - EventDekho" />
-        <meta
-          property="og:description"
-          content="Looking for the best catering services in Lucknow? EventDekho offers expert event, party, and wedding planning services in Lucknow."
-        />
-        <meta property="og:image" content="https://www.eventdekho.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.eb280abe.png&w=256&q=75" />
-        <meta property="og:url" content="https://www.eventdekho.in/" />
-        <meta property="og:type" content="website" />
-
-        {/* For responsive design */}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <html lang="en-IN" />
-        <meta name="geo.region" content="IN" />
-        <meta name="geo.placename" content="Lucknow, India" />
-        <meta name="geo.position" content="26.8467;80.9462" />
-      </Head>
+     
       <Header />
       <div className="font-sans p-4">
-        <div class="relative font-sans before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-10 before:z-0">
+        <div>
+        <img  src={img.src} alt="catering Banner Image" class="bannerImg" />
+        </div>
+        {/* <div class="relative font-sans before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-10 before:z-0">
           <Image height={400} width={1000} src={img.src} alt="Banner Image" class="absolute inset-0 w-full h-full object-cover" />
 
           <div class="min-h-[350px] relative z-10 h-full max-w-6xl mx-auto flex flex-col justify-center items-center text-center text-white p-6">
@@ -62,11 +31,16 @@ const page = () => {
               Book Now
             </a>
           </div>
-        </div>
+        </div> */}
+           <header className='max-w-6xl mx-auto py-10'>
+              <h1 className='md:text-6xl text-8xl text-black text-center font-semibold py-8'> Catering Services in Lucknow</h1>
+              <h2 class="text-center text-4xl md:text-3xl font-bold  text-gray-800">All in one Party solution in Lucknow We give the best packages for your events including decoration,catering,bakery,photography,cleaning and much more...</h2>
+            </header>
         <div className="max-w-screen-lg mx-auto py-12">
           <Component />
         </div>
       </div>
+   
       <section className="max-w-screen-xl p-12 md:p-0 m-auto" style={{ backgroundColor: "#FFFADB" }}>
         <div className="max-w-screen-lg m-auto" >
           <div >
@@ -125,3 +99,36 @@ const page = () => {
   )
 }
 export default page
+
+export const metadata = {
+  title: "Best Catering Services in Lucknow",
+  description:
+    "Looking for the best catering services in Lucknow? At Event Dekho, we bring the rich culinary heritage of Lucknow right to your event. Our catering services are tailored to deliver an unforgettable dining experience that combines traditional flavors with modern presentation.",
+  keywords:
+    "best catering services in Lucknow, wedding catering Lucknow, corporate catering Lucknow ,Best event planner in lucknow , Best birthday planner in lucknow , Best Anniversary planner in Lucknow , Best House Warming planner in lucknow , Best Ritual Events planner in Lucknow , Best Corporate Event planner in Lucknow, Event Decorators in lucknow , Photography/videography in lucknow , Post Party cleanup in lucknow",
+  openGraph: {
+    title: "Best catering services in Lucknow | Event & Party Planner - EventDekho",
+    description:
+      "Looking for the best catering services in Lucknow? EventDekho offers expert event, party, and wedding planning services in Lucknow.",
+    images: [
+      {
+        url: "https://www.eventdekho.in/_next/static/media/logo.0513172d.png",
+        width: 256,
+        height: 256,
+        alt: "EventDekho Logo",
+      },
+    ],
+    url: "https://www.eventdekho.in/",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image", // Example card type, you can adjust as needed
+    image: "https://www.eventdekho.in/_next/static/media/logo.0513172d.png",
+  },
+  viewport: "width=device-width, initial-scale=1.0",
+  geo: {
+    region: "IN",
+    placename: "Lucknow, India",
+    position: "26.8467;80.9462",
+  },
+};
