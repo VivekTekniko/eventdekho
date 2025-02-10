@@ -29,12 +29,12 @@ const PriceList=()=>{
                         </p>
                         <p class="font-semibold text-black text-left pt-5">
                             <span class="pl-2 flex text-2xl">
-                              <FaCheck style={{fontSize:"15px",marginTop:"3px",color:"pink",marginRight:"4px"}}/> Basic Food (including starter, food , bevarges)
+                              <FaCheck style={{fontSize:"19px",marginTop:"3px",color:"pink",marginRight:"4px"}}/> Basic Food (including starter, food , bevarges)
                             </span>
                         </p>
                         <p class="font-semibold text-black text-left pt-5">
                             <span class="pl-2 flex text-2xl">
-                              <FaCheck style={{fontSize:"15px",marginTop:"3px",color:"pink",marginRight:"4px"}}/> Cake (1kg) , popper , Knife , candle  
+                              <FaCheck style={{fontSize:"18px",marginTop:"3px",color:"pink",marginRight:"4px"}}/> Cake (1kg) , popper , Knife , candle  
                             </span>
                         </p>
 
@@ -61,17 +61,17 @@ const PriceList=()=>{
                     <div class="pt-8">
                         <p class="font-semibold text-black text-left">
                             <span class="pl-2 flex text-2xl">
-                              <FaCheck style={{fontSize:"15px",marginTop:"3px",color:"pink",marginRight:"4px"}}/>Premium Decoration with ballons , banners , LED etc
+                              <FaCheck style={{fontSize:"19px",marginTop:"3px",color:"pink",marginRight:"4px"}}/>Premium Decoration with ballons , banners , LED etc
                             </span>
                         </p>
                         <p class="font-semibold text-black text-left pt-5">
                             <span class="pl-2 flex text-2xl">
-                              <FaCheck style={{fontSize:"15px",marginTop:"3px",color:"pink",marginRight:"4px"}}/>Premium Food (including Starter , Food, bevarges,deserts )
+                              <FaCheck style={{fontSize:"19px",marginTop:"3px",color:"pink",marginRight:"4px"}}/>Premium Food (including Starter , Food, bevarges,deserts )
                             </span>
                         </p>
                         <p class="font-semibold text-black text-left pt-5">
                             <span class="pl-2 flex text-2xl">
-                              <FaCheck style={{fontSize:"15px",marginTop:"3px",color:"pink",marginRight:"4px"}}/>  Cake (2 floor), popper , cap , knife, ribbon etc
+                              <FaCheck style={{fontSize:"18px",marginTop:"3px",color:"pink",marginRight:"4px"}}/>  Cake (2 floor), popper , cap , knife, ribbon etc
                             </span>
                         </p>
                         <p class="font-semibold text-black text-left pt-5">
@@ -109,12 +109,12 @@ const PriceList=()=>{
                     <div class="pt-8">
                         <p class="font-semibold text-black text-left">
                             <span class="pl-2 flex text-2xl">
-                              <FaCheck style={{fontSize:"15px",marginTop:"3px",color:"pink",marginRight:"4px"}}/>Elite theme based decoration (customizable also)
+                              <FaCheck style={{fontSize:"19px",marginTop:"3px",color:"pink",marginRight:"4px"}}/>Elite theme based decoration (customizable also)
                             </span>
                         </p>
                         <p class="font-semibold text-black text-left pt-5">
                             <span class="pl-2 flex text-2xl">
-                              <FaCheck style={{fontSize:"15px",marginTop:"3px",color:"pink",marginRight:"4px"}}/>Elite catering services (inluding starter,food, bevarges, deserts)
+                              <FaCheck style={{fontSize:"22px",marginTop:"3px",color:"pink",marginRight:"4px"}}/>Elite catering services (inluding starter,food, bevarges, deserts)
                             </span>
                         </p>
                         <p class="font-semibold text-black text-left pt-5">
@@ -124,7 +124,7 @@ const PriceList=()=>{
                         </p>
                         <p class="font-semibold text-black text-left pt-5">
                             <span class="pl-2 flex text-2xl">
-                              <FaCheck style={{fontSize:"15px",marginTop:"3px",color:"pink",marginRight:"4px"}}/>  Cake (customizable), popper , cap , knife, ribbon etc
+                              <FaCheck style={{fontSize:"18px",marginTop:"3px",color:"pink",marginRight:"4px"}}/>  Cake (customizable), popper , cap , knife, ribbon etc
                             </span>
                         </p>
 

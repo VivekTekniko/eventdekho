@@ -4,13 +4,13 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="bg-web">
-  <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
+  <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-12 sm:px-6 lg:space-y-16 lg:px-8">
   <div className='block md:hidden'>
-        <div className="text-teal-600">
-            <Image height={100} width={200} src={logo.src} className='bg-white' alt="Event-dekho-partyplanner"/>
+        <div className=" mt-3">
+            <Image height={100} width={200} src={logo.src} className='bg-white mt-2' alt="Event-dekho-partyplanner"/>
         </div>
 
-        <p className="mt-4 max-w-xs text-white text-2xl font-medium">
+        <p className="mt-4 md:max-w-xs max-w-2xl text-white text-2xl font-medium">
         From the initial planning phase to the final cleanup, we handle everything so you can enjoy your event.
         </p>
 
@@ -35,8 +35,8 @@ const Footer = () => {
               </svg>
             </a>
           </li>
-          <li className='text-white'>9140734396 </li>
-          <li className='text-white'> 9870516108</li>
+          <li className='text-white mx-2'>9140734396</li>
+          <li className='ml-2 text-white'> 9870516108</li>
 
           
         </ul>

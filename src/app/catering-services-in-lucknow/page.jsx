@@ -92,7 +92,7 @@ const page = () => {
         </div>
       </section>
       <About />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <EventImage />
       <Footer />
     </div>

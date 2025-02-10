@@ -42,7 +42,7 @@ const page = () => {
 
         {/* <MostPopular/> */}
         <About />
-        <ContactForm />
+        {/* <ContactForm /> */}
         <EventImage />
         <Footer />
       </div>

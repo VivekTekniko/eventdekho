@@ -2,7 +2,9 @@
 import React, { useState } from 'react';
 // import EventImage from "../../Common/EventImage";
 import emailjs from 'emailjs-com';
+import { useRouter } from 'next/navigation';
 const ContactForm = () => {
+  const router = useRouter()
   const [formData, setFormData] = useState({
     fullName: '',
     phoneNumber: '',
@@ -22,7 +24,7 @@ const ContactForm = () => {
     e.preventDefault();
     emailjs.sendForm("service_quup0v5", "template_hfqkv4f", e.target, "_qLfEI_a3r4W0Ut9m")
        .then((result) => {
-         alert('Message Sent Successfully')
+        router.push("/thankyou")
        }, (error) => {
          console.log(error.text);
          alert('Something went wrong!')
@@ -119,6 +121,7 @@ const ContactForm = () => {
               className="w-full px-3 md:py-4 py-10 md:text-2xl text-4xl border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-pink-500"
             >
               <option value="" disabled>Select</option>
+              <option value="ValentineEvents">Valentine Event</option>
               <option value="Birthday">Birthday</option>
               <option value="Wedding">Wedding</option>
               <option value="Anniversary">Anniversary</option>

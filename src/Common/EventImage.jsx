@@ -13,6 +13,7 @@ import img8 from "../Assets/event8.jpg";
 import img11 from "../Assets/event11.jpg";
 import img10 from "../Assets/event10.jpg";
 import Image from "next/image";
+import ContactForm from "../app/contact-form/ContactForm";
 
 
 const HomePage = () => {
@@ -39,6 +40,7 @@ const HomePage = () => {
 
   return (
     <>
+       <ContactForm/>
     <div className="text-start mt-12">
         <h1 className="text-black text-4xl font-bold px-6 py-4 ">See Our works</h1>
     </div>
@@ -102,6 +104,7 @@ const HomePage = () => {
       
 
     </div>
+ 
     </>
   );
 };

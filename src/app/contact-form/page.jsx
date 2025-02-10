@@ -26,7 +26,7 @@ const Page = () => {
         {/* Open Graph Meta Tags for Social Sharing */}
       </Head>
     <Header />  
-    <ContactForm/>
+    {/* <ContactForm/> */}
 <EventImage/>
 <Footer/>
     </div>
