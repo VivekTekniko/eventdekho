@@ -16,6 +16,8 @@
 # production
 /build
 
+/UsersmynameAppDataRoamingnpm-cache
+
 # misc
 .DS_Store
 *.pem
