@@ -1,0 +1,120 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\HP PC\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.19.2
+2 info using node@v22.12.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Users\HP PC\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\HP PC\AppData\Local\Microsoft\TypeScript\5.9\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 7ms
+11 timing config:load:file:C:\Users\HP PC\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\HP PC\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 21ms
+19 timing npm:load:configload Completed in 21ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm install @types/inherits@ts5.9 @types/object.assign@ts5.9 @types/node@ts5.9 @types/qs@ts5.9
+23 verbose argv "install" "--ignore-scripts" "@types/inherits@ts5.9" "@types/object.assign@ts5.9" "@types/node@ts5.9" "@types/qs@ts5.9" "--save-dev" "--user-agent" "typesInstaller/5.9.0-dev.20250315"
+24 timing npm:load:setTitle Completed in 1ms
+25 timing config:load:flatten Completed in 3ms
+26 timing npm:load:display Completed in 5ms
+27 verbose logfile logs-max:10 dir:C:\Users\HP PC\Desktop\main-project\eventdekho\UsersmynameAppDataRoamingnpm-cache\_logs
+28 verbose logfile C:\Users\HP PC\Desktop\main-project\eventdekho\UsersmynameAppDataRoamingnpm-cache\_logs\2025-03-16T14_04_41_660Z-debug-0.log
+29 timing npm:load:logFile Completed in 9ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 39ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 28ms
+36 timing arborist:ctor Completed in 0ms
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fqs 652ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 1833ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fobject.assign 2438ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2finherits 6399ms (cache miss)
+41 timing idealTree:userRequests Completed in 6403ms
+42 silly idealTree buildDeps
+43 silly fetch manifest @types/qs@6.9.18
+44 silly fetch manifest @types/node@22.13.10
+45 silly fetch manifest @types/object.assign@4.1.0
+46 silly fetch manifest @types/inherits@2.0.0
+47 silly placeDep ROOT @types/inherits@2.0.0 OK for:  want: 2.0.0
+48 silly placeDep ROOT @types/node@22.13.10 OK for:  want: 22.13.10
+49 silly placeDep ROOT @types/object.assign@4.1.0 OK for:  want: 4.1.0
+50 silly placeDep ROOT @types/qs@6.9.18 OK for:  want: 6.9.18
+51 silly fetch manifest undici-types@~6.20.0
+52 http fetch GET 200 https://registry.npmjs.org/undici-types 167ms (cache miss)
+53 timing idealTree:#root Completed in 180ms
+54 timing idealTree:node_modules/@types/inherits Completed in 0ms
+55 silly placeDep ROOT undici-types@6.20.0 OK for: @types/node@22.13.10 want: ~6.20.0
+56 timing idealTree:node_modules/@types/node Completed in 1ms
+57 timing idealTree:node_modules/@types/object.assign Completed in 0ms
+58 timing idealTree:node_modules/@types/qs Completed in 0ms
+59 timing idealTree:node_modules/undici-types Completed in 0ms
+60 timing idealTree:buildDeps Completed in 184ms
+61 timing idealTree:fixDepFlags Completed in 0ms
+62 timing idealTree Completed in 6616ms
+63 timing reify:loadTrees Completed in 6617ms
+64 timing reify:diffTrees Completed in 2ms
+65 silly reify moves {}
+66 timing reify:retireShallow Completed in 0ms
+67 timing reify:createSparse Completed in 10ms
+68 timing reify:loadBundles Completed in 0ms
+69 silly audit bulk request {
+69 silly audit   '@types/js-cookie': [ '3.0.6' ],
+69 silly audit   '@types/page': [ '1.11.9' ],
+69 silly audit   '@types/react': [ '19.0.10' ],
+69 silly audit   '@types/react-dom': [ '19.0.4' ],
+69 silly audit   csstype: [ '3.1.3' ],
+69 silly audit   'types-registry': [ '0.1.712' ],
+69 silly audit   '@types/inherits': [ '2.0.0' ],
+69 silly audit   '@types/node': [ '22.13.10' ],
+69 silly audit   '@types/object.assign': [ '4.1.0' ],
+69 silly audit   '@types/qs': [ '6.9.18' ],
+69 silly audit   'undici-types': [ '6.20.0' ]
+69 silly audit }
+70 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-6.20.0.tgz. Extracting by manifest.
+71 silly tarball no local data for @types/qs@https://registry.npmjs.org/@types/qs/-/qs-6.9.18.tgz. Extracting by manifest.
+72 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-22.13.10.tgz. Extracting by manifest.
+73 silly tarball no local data for @types/object.assign@https://registry.npmjs.org/@types/object.assign/-/object.assign-4.1.0.tgz. Extracting by manifest.
+74 silly tarball no local data for @types/inherits@https://registry.npmjs.org/@types/inherits/-/inherits-2.0.0.tgz. Extracting by manifest.
+75 http fetch GET 200 https://registry.npmjs.org/@types/qs/-/qs-6.9.18.tgz 475ms (cache miss)
+76 timing reifyNode:node_modules/@types/qs Completed in 490ms
+77 http fetch GET 200 https://registry.npmjs.org/@types/inherits/-/inherits-2.0.0.tgz 468ms (cache miss)
+78 timing reifyNode:node_modules/@types/inherits Completed in 492ms
+79 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-6.20.0.tgz 572ms (cache miss)
+80 timing reifyNode:node_modules/undici-types Completed in 587ms
+81 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-22.13.10.tgz 756ms (cache miss)
+82 timing reifyNode:node_modules/@types/node Completed in 772ms
+83 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 910ms
+84 timing auditReport:getReport Completed in 912ms
+85 silly audit report {}
+86 timing auditReport:init Completed in 0ms
+87 timing reify:audit Completed in 913ms
+88 http fetch GET 200 https://registry.npmjs.org/@types/object.assign/-/object.assign-4.1.0.tgz 1437ms (cache miss)
+89 timing reifyNode:node_modules/@types/object.assign Completed in 1454ms
+90 timing reify:unpack Completed in 1454ms
+91 timing reify:unretire Completed in 0ms
+92 timing build:queue Completed in 2ms
+93 timing build:deps Completed in 2ms
+94 timing build Completed in 2ms
+95 timing reify:build Completed in 4ms
+96 timing reify:trash Completed in 0ms
+97 timing reify:save Completed in 16ms
+98 timing reify Completed in 8120ms
+99 silly ADD node_modules/undici-types
+100 silly ADD node_modules/@types/qs
+101 silly ADD node_modules/@types/object.assign
+102 silly ADD node_modules/@types/node
+103 silly ADD node_modules/@types/inherits
+104 timing command:install Completed in 8128ms
+105 verbose exit 0
+106 timing npm Completed in 8398ms
+107 info ok

@@ -8,6 +8,9 @@ import ContactForm from '../contact-form/ContactForm';
 import Component2 from "./Component2";
 import About from "../../Component/About";
 import Image from 'next/image';
+import HomePage from '@/Component/HomePage';
+import MostPopular from '@/Component/MostPopular';
+import HowWorks from '@/Component/HowWorks';
 
 const page = () => {
   return (
@@ -15,7 +18,8 @@ const page = () => {
       <div>
         <Header />
         <div className="font-sans p-4">
-          <div class="relative font-sans before:absolute before:w-full before:h-full before:inset-0 bg-gradient-to-b from-transparent to-black  before:bg-black before:opacity-0 before:z-10">
+          <HomePage/>
+          {/* <div class="relative font-sans before:absolute before:w-full before:h-full before:inset-0 bg-gradient-to-b from-transparent to-black  before:bg-black before:opacity-0 before:z-10">
             <Image height={400} width={500} src={img.src} alt="event planner banner" class="absolute inset-0 w-full h-full object-cover" />
 
             <div class="min-h-[350px] relative z-10 h-full max-w-6xl mx-auto flex flex-col justify-center items-center text-center text-white p-6">
@@ -29,13 +33,15 @@ const page = () => {
                 Book Now
               </a>
             </div>
-          </div>
+          </div> */}
+           <MostPopular/>
           <div className="max-w-screen-lg md:mx-auto mx-10 py-12">
             <Component2 />
           </div>
         </div>
-
+        <HowWorks/>
         <section className="max-w-screen-xl p-12 md:p-0 m-auto" style={{ backgroundColor: "#FFFADB" }}>
+         
           <div className="max-w-screen-lg m-auto" >
             <div >
               <h2 className="text-3xl py-4 text-black font-bold">
@@ -67,6 +73,7 @@ const page = () => {
             </div>
           </div>
         </section>
+       
         <About />
         {/* <ContactForm /> */}
         <EventImage />

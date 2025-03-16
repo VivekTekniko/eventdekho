@@ -15,14 +15,13 @@ const Footer = () => {
         </p>
 
         <ul className="mt-8 flex gap-6">
-          
-
           <li>
             <a
               href="https://www.instagram.com/eventdekho.official/"
               rel="noreferrer"
               target="_blank"
               className="text-white text-2xl font-medium transition hover:opacity-75"
+              style={{margin:"10px 0"}}
             >
               <span className="sr-only">Instagram</span>
 
@@ -35,10 +34,9 @@ const Footer = () => {
               </svg>
             </a>
           </li>
-          <li className='text-white mx-2'>9140734396</li>
+          <li className='text-white' style={{margin:"0px 10px"}}>9140734396</li>
+          <li className='mx-2'>/</li>
           <li className='ml-2 text-white'> 9870516108</li>
-
-          
         </ul>
       </div>
     <div className=" flex justify-between grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
