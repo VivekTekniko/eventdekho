@@ -2,7 +2,7 @@ import React from "react";
 
 const ContentPage = () => {
   return (
-    <section className="max-w-screen-xl p-12 md:p-0 m-auto"   style={{ backgroundColor: "#FFFADB" }}>
+    <section className=" py-12 md:p-0 m-auto"   style={{ backgroundColor: "#FFFADB" }}>
       {/* <Image src={img.src} className="w-full h-full" /> */}
       <div className="max-w-screen-lg m-auto" >
       <div >

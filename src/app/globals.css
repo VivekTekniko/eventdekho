@@ -18,6 +18,11 @@
 
 /* Global ----------------------------------csss------------------------- */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+  font-family:  'Poppins', sans-serif !important;
+}
+
 :root {
   /* --primary-color: rgb(219 39 119); */
   --primary-color:#f705a4 
@@ -33,7 +38,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Times New Roman', Times, serif !important;
+  /* font-family: 'Times New Roman', Times, serif !important; */
 }
 
 @media screen and (max-width:900px) {

@@ -28,6 +28,23 @@ export default function RootLayout({children}) {
               })(window,document,'script','dataLayer','GTM-TRMJPWQH');`
           }}
         />
+         <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-HRQ6P8G1NN`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-HRQ6P8G1NN', {
+                  page_path: window.location.pathname,
+                });
+              `,
+            }}
+          />
       </Head>
       <body className={inter.className}>
         {children}
@@ -38,6 +55,7 @@ export default function RootLayout({children}) {
         //   console.log('Flowbite script loaded successfully');
         // }}
         />
+
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-TRMJPWQH"
@@ -46,6 +64,14 @@ export default function RootLayout({children}) {
             style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
+        <noscript>
+            <iframe
+              src="https://www.google-analytics.com/collect?v=1&t=pageview&tid=G-HRQ6P8G1NN"
+              height="0"
+              width="0"
+              style={{ display: 'none', visibility: 'hidden' }}
+            />
+          </noscript>
       </body>
     </html>
   );
@@ -58,7 +84,7 @@ export const metadata = {
     'Event Dekho offers hassle-free event planning services including decoration, catering, photography, and cleaning in Lucknow. Book everything you need to host your perfect party, all in one place!',
   author: 'Event Dekho',
   keywords:
-    'Best Event Planners in Lucknow, Event & Party Planner, Events Planner in Lucknow, Party Planners in Lucknow, Birthday Party Planners, Wedding Planners, Anniversary Planners, Baby Shower Planners, Corporate Event Planners, Event Dekho, Event planner in Lucknow, event organiser in Lucknow, event management in Lucknow, event management company in Lucknow, best event management companies in Lucknow',
+    'Best Event Planners in Lucknow, Wedding planner in lucknow , Engagement planner in lucknow ,Event & Party Planner, Events Planner in Lucknow, Party Planners in Lucknow, Birthday Party Planners, Wedding Planners, Anniversary Planners, Baby Shower Planners, Corporate Event Planners, Event Dekho, Event planner in Lucknow, event organiser in Lucknow, event management in Lucknow, event management company in Lucknow, best event management companies in Lucknow',
   robots: 'index, follow',
   canonical: 'https://www.eventdekho.in/',
   openGraph: {

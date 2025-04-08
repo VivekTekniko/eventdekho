@@ -47,5 +47,14 @@ export const content=[
         content2:"Our team provides customizable decorations that reflect the traditional and spiritual significance of your ritual event. From elegant flower arrangements to divine altar setups, we ensure that every detail aligns with your specific requirements. Our catering services offer traditional dishes that complement the spiritual atmosphere, and we provide custom cakes and bakery items to add a touch of sweetness to your celebration.",
         content3:"As the best ritual event planner in Lucknow, we take pride in offering personalized services that honor your traditions and create a seamless experience. Whether it's a housewarming ceremony, puja, or any other cultural ritual, we are the top choice for best decorators and catering providers in Lucknow."
     },
+
+    {
+        key:"wedding",
+        name:"Wedding Events",
+        heading:"Best Ritual event Planner in Lucknow - Creating Memorable Moments for Your Special Day",
+        content1:"Looking for the best ritual event planner in Lucknow? We specialize in creating memorable and meaningful experiences for all types of ritual ceremonies. Whether it's a housewarming, puja, baby naming ceremony, or any other cultural or religious ritual, we offer a wide range of services to make your event truly special.",
+        content2:"Our team provides customizable decorations that reflect the traditional and spiritual significance of your ritual event. From elegant flower arrangements to divine altar setups, we ensure that every detail aligns with your specific requirements. Our catering services offer traditional dishes that complement the spiritual atmosphere, and we provide custom cakes and bakery items to add a touch of sweetness to your celebration.",
+        content3:"As the best ritual event planner in Lucknow, we take pride in offering personalized services that honor your traditions and create a seamless experience. Whether it's a housewarming ceremony, puja, or any other cultural ritual, we are the top choice for best decorators and catering providers in Lucknow."
+    },
    
 ]

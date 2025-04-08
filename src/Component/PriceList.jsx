@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa";
 
 const PriceList=()=>{
     return(
-        <section className='max-w-screen-xl md:mx-auto bg-pink-200 py-10'>
+        <section className=' bg-pink-200 py-10'>
         <div className="max-w-screen-lg md:mx-auto p-4">
           <h3 className="text-center text-black font-semibold text-5xl font-sans pb-8" >
             Our Most Popular Party Packages
