@@ -32,7 +32,7 @@ const HomePage = () => {
     },
   };
 
-  const imgData = [img1, img2, img3,img4,img5, img3,img1, img2, img3];
+  const imgData = [img2, img3,img4,img5, img3,img1, img2, img3];
 
   return (
     <div className="py-2">

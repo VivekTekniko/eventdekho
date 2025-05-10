@@ -2,6 +2,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
 import Script from "next/script";
+import { GoogleAnalytics } from '@next/third-parties/google';
+import Whatsapp from "../Common/Whatsapp"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +21,7 @@ export default function RootLayout({children}) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -31,7 +33,7 @@ export default function RootLayout({children}) {
          <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=G-HRQ6P8G1NN`}
-          />
+          /> */}
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -48,6 +50,8 @@ export default function RootLayout({children}) {
       </Head>
       <body className={inter.className}>
         {children}
+        <Whatsapp />
+        <GoogleAnalytics gaId="G-HRQ6P8G1NN" />
         <Script
           src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"
           strategy="lazyOnload" // This loads the script after the page is fully loaded
@@ -64,14 +68,14 @@ export default function RootLayout({children}) {
             style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
-        <noscript>
+        {/* <noscript>
             <iframe
               src="https://www.google-analytics.com/collect?v=1&t=pageview&tid=G-HRQ6P8G1NN"
               height="0"
               width="0"
               style={{ display: 'none', visibility: 'hidden' }}
             />
-          </noscript>
+          </noscript> */}
       </body>
     </html>
   );

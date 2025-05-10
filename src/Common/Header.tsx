@@ -17,7 +17,7 @@ const Header = () => {
 
         </Link>
        
-        <div className="flex basis-3/5 gap-4 justify-between md:justify-end items-center md:order-2 ">
+        <div className="flex basis-[75%] gap-4 justify-between md:justify-end items-center md:order-2 ">
         <Link className="md:text-[20px] text-[9px]  font-normal text-web  " href="/event-planners-in-lucknow">About Us </Link>
         <Link className="md:text-[20px] text-[9px]  font-normal text-web  "href="/contact-form">Contact Us </Link>
         <Link className="md:text-[20px] text-[9px]  font-normal text-web  " href="/catering-services-in-lucknow">Our Menu </Link>
