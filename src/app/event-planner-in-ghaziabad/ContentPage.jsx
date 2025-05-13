@@ -8,7 +8,7 @@ const ContentPage = () => {
         {/* Hero Section */}
         <div className="text-center">
           <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl">
-            Event planner in Noida
+            Event planner in Ghaziabad
           </h1>
           <p className="mt-4 text-2xl text-gray-600">
             At Your Eventdekho, we don&apos;t just plan events – we create unforgettable experiences. As a full-service event

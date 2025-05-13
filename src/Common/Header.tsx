@@ -18,14 +18,14 @@ const Header = () => {
         </Link>
        
         <div className="flex basis-[75%] gap-4 justify-between md:justify-end items-center md:order-2 ">
-        <Link className="md:text-[20px] text-[9px]  font-normal text-web  " href="/event-planners-in-lucknow">About Us </Link>
-        <Link className="md:text-[20px] text-[9px]  font-normal text-web  "href="/contact-form">Contact Us </Link>
-        <Link className="md:text-[20px] text-[9px]  font-normal text-web  " href="/catering-services-in-lucknow">Our Menu </Link>
-        <div className="md:text-[20px] text-[9px]  text-white md:mx-8 ">
+        <Link className="md:text-[20px] text-[6px]  font-normal text-web  " href="/event-planners-in-lucknow">About Us </Link>
+        <Link className="md:text-[20px] text-[6px]  font-normal text-web  "href="/contact-form">Contact Us </Link>
+        {/* <Link className="md:text-[20px] text-[6px]  font-normal text-web  " href="/catering-services-in-lucknow">Our Menu </Link> */}
+        <div className="md:text-[20px] text-[6px]  text-white md:mx-8 ">
 
         <div className="my-2">
                 <a  href="/contact-form" className="text-center py-3 bg-web mt-2 rounded-xl ">
-                  <span className="font-normal p-4 text-white md:text-[20px] text-[9px] ">Book Now</span>
+                  <span className="font-normal p-4 text-white md:text-[20px] text-[6px] ">Book Now</span>
                 </a>
               </div>
         </div>

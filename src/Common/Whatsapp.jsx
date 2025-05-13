@@ -51,7 +51,7 @@ const WhatApp = () => {
         <div>
             <a href={whatsappURL} target="_blank" rel="noopener noreferrer" style={styles.floatingButton}>
                 <button >
-                    <FaWhatsapp className='text-[4rem] pt-[5px]' />
+                    <FaWhatsapp className=' pt-[5px]' style={{fontSize:"60px"}} />
 
                 </button>
             </a>
@@ -60,7 +60,7 @@ const WhatApp = () => {
                 href={`tel:${phoneNumber}`}
                 style={styles.floatingButton2}
             >
-                <PiPhoneCallFill className='text-[4rem] pt-[5px]' />
+                <PiPhoneCallFill className=' pt-[5px]' style={{fontSize:"60px"}} />
             </a>
         </div>
     )
