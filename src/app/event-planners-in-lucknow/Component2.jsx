@@ -15,7 +15,9 @@ const Component2 = () => {
         <div class="max-w-screen-lg  mx-auto font-[sans-serif] my-4">
           <div class="text-center max-w-8xl mx-auto">
             <h2 class="text-gray-800 text-5xl font-extrabold text-center mb-6">Our Exclusive Features</h2>
-            <p class="text-gray-700 text-3xl"> Based in the heart of Lucknow, we provide a full range of event planning services, whether it&apos;s a birthday, wedding anniversary , baby shower , corporate event, or any special occasion. Our experienced team handles everything from decoration, catering, and photography to managing the entire event, ensuring it&apos;s stress-free and magical.</p>
+            <p class="text-gray-700 text-3xl">
+              Located in the heart of the city, <strong>EventDekho</strong> is your trusted <strong>event planner in Lucknow</strong> for all kinds of celebrations. Whether its a <strong>birthday party</strong>, <strong>wedding anniversary</strong>, <strong>baby shower</strong>, <strong>corporate event</strong>, or any other special occasion, our team delivers end-to-end planning and execution with precision. From elegant <strong>event decorations</strong> and delicious <strong>catering services</strong> to professional <strong>event photography and videography</strong>, we take care of every detail. With our experienced planners, your event is guaranteed to be <strong>stress-free, beautifully organized, and truly memorable</strong>.
+            </p>
           </div>
 
           <div class="mt-16">
@@ -25,10 +27,10 @@ const Component2 = () => {
               </div>
               <div>
                 <h3 class="text-gray-800 text-4xl font-bold mb-4">Decoration</h3>
-                <p class="text-gray-700 md:text-2xl text-3xl font-medium">Transform your event space with stunning decorations that align with your theme and style. Whether it&apos;s an intimate gathering or a grand celebration, our expert decorators will create the perfect ambiance for your party.
-                Transform your event space with stunning decorations that perfectly reflect your unique theme and style. No matter the size, whether it&apos;s an intimate gathering or a grand celebration, our expert decorators will work closely with you to bring your vision to life.
-                Let us turn your event into a magical experience that truly stands out.
+                <p class="text-gray-700 md:text-2xl text-3xl font-medium">
+                  Elevate your celebration with <strong>event decoration services in Lucknow</strong> that blend creativity, elegance, and precision. At <strong>EventDekho</strong>, we specialize in crafting visually stunning setups tailored to your theme – be it a romantic <strong>wedding decor</strong>, vibrant <strong>birthday party decoration</strong>, or chic <strong>corporate event styling</strong>. Whether you’re hosting an intimate gathering or a grand-scale event, our <strong>professional event decorators</strong> work closely with you to design an unforgettable ambiance. From floral arrangements and stage setups to lighting and backdrops – we ensure every detail reflects your vision. Let us turn your special occasion into a beautifully styled and Instagram-worthy experience.
                 </p>
+
                 <ul>
                   <li className='py-1 md:text-2xl text-3xl font-normal'>
                     <span className='font-bold md:text-2xl text-3xl'>Basic Decoration : </span> Simple yet elegant décor with balloons, banners, and minimal table settings
@@ -47,9 +49,10 @@ const Component2 = () => {
               </div>
               <div>
                 <h3 class="text-gray-800 text-4xl font-bold mb-4">Catering</h3>
-                <p class="text-gray-700 md:text-2xl text-3xl font-medium">Delight your guests with a mouthwatering spread of food and beverages expertly tailored to suit your event. 
-                  Our dedicated catering team is passionate about crafting a wide variety of cuisines, ensuring that every dish is prepared to perfection with the finest ingredients. From savory appetizers to indulgent desserts, we focus on delivering
-                   exceptional quality and flavor in every bite.</p>
+                <p class="text-gray-700 md:text-2xl text-3xl font-medium">
+                  Impress your guests with an unforgettable culinary experience through our <strong>top catering services in Lucknow</strong>. At <strong>EventDekho</strong>, we offer a diverse range of customized menus to match the theme and style of your event. Whether it’s a grand wedding, corporate gala, or intimate celebration, our <strong>professional caterers</strong> bring you a fusion of taste, presentation, and service. From flavorful appetizers and gourmet entrees to decadent desserts and signature beverages, we use only the freshest ingredients to ensure every dish is crafted to perfection. Choose us for <strong>wedding catering in Lucknow</strong>, <strong>birthday party food services</strong>, or <strong>corporate event catering</strong> that leaves a lasting impression.
+                </p>
+
                 <ul>
                   <li className='py-1 md:text-2xl text-3xl font-normal'>
                     <span className='font-bold md:text-2xl text-3xl'>Basic Catering : </span> A well-curated selection of starters, main courses, and desserts
@@ -74,8 +77,10 @@ const Component2 = () => {
               </div>
               <div>
                 <h3 class="text-gray-800 text-4xl font-bold mb-4">Photography</h3>
-                <p class="text-gray-700 md:text-2xl text-3xl font-medium">Capture every special moment with our expert photography services, designed to preserve the essence of your event. Whether it&apos;s spontaneous candid shots or posed formal group pictures, our skilled photographers are dedicated to capturing the unique atmosphere of your celebration. We focus on every detail,
-                   ensuring that each image tells the story of your event in a way that feels personal and meaningful.</p>
+                <p class="text-gray-700 md:text-2xl text-3xl font-medium">
+                  Preserve the magic of your celebration with our <strong>professional event photography services in Lucknow</strong>. At <strong>EventDekho</strong>, we specialize in capturing both the big moments and the subtle details that make your event truly special. Whether you are looking for natural <strong>candid photography</strong> or beautifully composed <strong>portrait and group shots</strong>, our experienced photographers ensure every frame reflects the heart of your celebration. From <strong>wedding photography</strong> and <strong>engagement shoots</strong> to <strong>corporate event coverage</strong> and <strong>birthday party photography</strong>, we create a visual story that’s personal, emotional, and unforgettable.
+                </p>
+
                 <ul>
                   <li className='py-1 md:text-2xl text-3xl font-normal'>
                     <span className='font-bold md:text-2xl text-3xl'>Basic Photography : </span>Professional event coverage with candid and posed shots.
@@ -92,10 +97,10 @@ const Component2 = () => {
                   Book now
                 </a>
               </div>
-              
+
             </div>
           </div>
-          
+
         </div>
       </div>
     </>

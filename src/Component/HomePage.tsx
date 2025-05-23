@@ -6,9 +6,9 @@ import "react-multi-carousel/lib/styles.css";
 // import img2 from "../Assets/custombanner2.jpg";
 // import img3 from "../Assets/custombanner3.jpg";
 
-import img1 from "../Assets/valentine.jpg";
+// import img1 from "../Assets/valentine.jpg";
 import img2 from "../Assets/cateringlatest.jpg";
-import img3 from "../Assets/cleaninglatest.jpg";
+// import img3 from "../Assets/cleaninglatest.jpg";
 import img4 from "../Assets/decorationlatest.jpg";
 import img5 from "../Assets/photographerlatest.jpg";
 
@@ -32,7 +32,7 @@ const HomePage = () => {
     },
   };
 
-  const imgData = [img2, img3,img4,img5, img3,img1, img2, img3];
+  const imgData = [img2,img4,img5, img2];
 
   return (
     <div className="py-2">

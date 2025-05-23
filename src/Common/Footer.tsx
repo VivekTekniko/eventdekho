@@ -36,7 +36,7 @@ const Footer = () => {
           </li>
           <li className='text-white' style={{margin:"0px 10px"}}>9140734396</li>
           <li className='mx-2'>/</li>
-          <li className='ml-2 text-white'> 9870516108</li>
+          {/* <li className='ml-2 text-white'> 9870516108</li> */}
         </ul>
       </div>
     <div className=" flex justify-between grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -88,7 +88,7 @@ const Footer = () => {
             </a>
           </li>
           <li className='text-white'>9140734396</li>
-          <li className='text-white'>9870516108</li>
+          {/* <li className='text-white'>9870516108</li> */}
 
           {/* <li>
             <a
